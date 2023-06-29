@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: going-once-prototype-backend
+    command: celery -A backend beat -l info --detach && \
+              celery -A backend worker -l info --detach && \
+              gunicorn backend.wsgi:application --bind 0.0.0.0:8000 --env DJANGO_CONFIGURATION=DevConfig
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/app

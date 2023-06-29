@@ -1,0 +1,9 @@
+env/
+staticfiles/
+__pycache__/
+db.sqlite3
+.vscode/
+.git/
+test_api
+tests/
+.gitignore

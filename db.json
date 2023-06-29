@@ -1,0 +1,154 @@
+[
+    {
+        "model": "admin_interface.theme",
+        "pk": 1,
+        "fields": {
+            "name": "Going-Once",
+            "active": true,
+            "title": "Going-Once Administration",
+            "title_color": "#F5DD5D",
+            "title_visible": true,
+            "logo": "media/admin-interface/logo/logo_u5qbhm",
+            "logo_color": "#FFFFFF",
+            "logo_max_width": 104,
+            "logo_max_height": 35,
+            "logo_visible": true,
+            "favicon": "media/admin-interface/favicon/logo_hznjgy",
+            "env_name": "",
+            "env_color": "#E74C3C",
+            "env_visible_in_header": true,
+            "env_visible_in_favicon": true,
+            "language_chooser_active": true,
+            "language_chooser_control": "default-select",
+            "language_chooser_display": "code",
+            "css_header_background_color": "#0C4B33",
+            "css_header_text_color": "#44B78B",
+            "css_header_link_color": "#FFFFFF",
+            "css_header_link_hover_color": "#C9F0DD",
+            "css_module_background_color": "#44B78B",
+            "css_module_background_selected_color": "#FFFFCC",
+            "css_module_text_color": "#FFFFFF",
+            "css_module_link_color": "#FFFFFF",
+            "css_module_link_selected_color": "#FFFFFF",
+            "css_module_link_hover_color": "#C9F0DD",
+            "css_module_rounded_corners": true,
+            "css_generic_link_color": "#0C3C26",
+            "css_generic_link_hover_color": "#156641",
+            "css_generic_link_active_color": "#29B864",
+            "css_save_button_background_color": "#0C4B33",
+            "css_save_button_background_hover_color": "#0C3C26",
+            "css_save_button_text_color": "#FFFFFF",
+            "css_delete_button_background_color": "#BA2121",
+            "css_delete_button_background_hover_color": "#A41515",
+            "css_delete_button_text_color": "#FFFFFF",
+            "related_modal_active": true,
+            "related_modal_background_color": "#000000",
+            "related_modal_background_opacity": "0.2",
+            "related_modal_rounded_corners": true,
+            "related_modal_close_button_visible": true,
+            "list_filter_highlight": true,
+            "list_filter_dropdown": false,
+            "list_filter_sticky": true,
+            "list_filter_removal_links": false,
+            "foldable_apps": true,
+            "show_fieldsets_as_tabs": false,
+            "show_inlines_as_tabs": false,
+            "recent_actions_visible": true,
+            "form_submit_sticky": false,
+            "form_pagination_sticky": false
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "j2u1clwvaaa6k5h1m0sk73pc26yg384d",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pAyIBSX7nsGMgxTqRpISrsy3l1JutC__O_lvUTAfcthb7yGJYmLUOL0-0WkB5cO0h3LrUqqZVuXKLsiD9rkVBM_r4f7F8jYcs-mM6N2ANY4_R2Qdew92uSIzWAJ1ai8sh5mNJ7m5DREHCCOhsmQEe8PxEk3cQ:1pt1Cn:Zdxz4mNnH0PuJc35i8QWI10bdkNtXca0dMtrZVDtRzY",
+            "expire_date": "2023-05-14T07:10:45.392Z"
+        }
+    },
+    {
+        "model": "core.wallet",
+        "pk": 1,
+        "fields": {
+            "user": 2,
+            "account_number": null,
+            "bank_code": null,
+            "balance": "5000.00"
+        }
+    },
+    {
+        "model": "core.item",
+        "pk": 1,
+        "fields": {
+            "name": "playstation 5",
+            "image": "media/item_images/Screenshot_488_qntd7c",
+            "description": "Playstation 5 gaming console",
+            "starting_bid": "99.99",
+            "current_bid": "200.00",
+            "number_of_bid": 1,
+            "end_date": "2023-04-28T12:00:00Z",
+            "seller": 1,
+            "is_available": false,
+            "uploaded_at": "2023-04-28T16:07:04.409Z",
+            "winner": 2
+        }
+    },
+    {
+        "model": "core.bid",
+        "pk": 1,
+        "fields": {
+            "bidder": 2,
+            "item": 1,
+            "amount": "200.00",
+            "created": "2023-04-28T16:26:56.245Z"
+        }
+    },
+    {
+        "model": "customauth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$CzVhK9065skACzX61G0mNl$BDuxOPSszafbsmJZbn1zma830Q18CDjbSbD8miR1+vA=",
+            "last_login": "2023-04-30T07:10:45.381Z",
+            "is_superuser": true,
+            "first_name": "",
+            "last_name": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-04-28T15:57:10.132Z",
+            "email": "ifeanyinneji777@gmail.com",
+            "profile_pic": "media/profiles/1b6962e31c51105df38f9d99f2ca9411_oviwsv",
+            "bio": "This is my Bio.",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "customauth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$g1wi2f7rmgur8bpSCC4dA6$kZhhtR+OpmVx85HayDMepKunUsYH//Bg6tAxNKUPBnk=",
+            "last_login": "2023-04-28T16:12:41.117Z",
+            "is_superuser": false,
+            "first_name": "test3",
+            "last_name": "test_3",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-04-28T16:12:35.838Z",
+            "email": "test3@gmail.com",
+            "profile_pic": "",
+            "bio": "Strong and affiliated user",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "account.emailaddress",
+        "pk": 1,
+        "fields": {
+            "user": 2,
+            "email": "test3@gmail.com",
+            "verified": true,
+            "primary": true
+        }
+    }
+]

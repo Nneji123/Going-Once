@@ -1,0 +1,42 @@
+run celery beat and then run celery worker in a separate terminal and django server in a separate terminal.
+3 terminals.
+
+```
+use gevent on windows but no need if deployed on linux.
+```
+celery-worker: windows
+```
+celery -A backend worker -l info --logfile=celery.log -P gevent
+```
+
+celery-worker: linux
+```
+celery -A backend worker -l info --logfile=celery.log
+```
+
+celery-beat: windows
+```
+celery -A backend beat -l info --logfile=celery.log
+```
+
+celery-beat: linux
+```
+celery -A backend beat -l info --logfile=celery.log
+```
+
+django-server: windows
+```
+python manage.py runserver
+```
+
+django-server: linux
+```
+python manage.py runserver --configuration=DevConfig
+```
+
+things to install
+```
+pip install celery
+pip install redis
+```
+./manage.py loaddata user.json
