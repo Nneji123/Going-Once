@@ -17,4 +17,3 @@ celery.beat.log
 celery.log
 notes.txt
 data.json
-db.json
