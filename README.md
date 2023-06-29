@@ -14,7 +14,10 @@
 - Automated testing with Django Nose and GitHub Actions for ensuring code quality and reliability
 
 ## Screenshots
-
+![Screenshot (537)](https://github.com/Nneji123/Going-Once/assets/101701760/1266ce8e-d54d-4a38-823e-c7a9065effe5)
+![Screenshot (538)](https://github.com/Nneji123/Going-Once/assets/101701760/955a9e0c-3bef-4eaa-920b-eb590278c605)
+![Screenshot (539)](https://github.com/Nneji123/Going-Once/assets/101701760/4364eaed-b7af-4bc1-bc4d-8170975c45f4)
+![Screenshot (540)](https://github.com/Nneji123/Going-Once/assets/101701760/880e53e7-5b0b-40ea-93dc-7cf91ef98a8c)
 
 
 
